@@ -1,10 +1,53 @@
 
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="ms">
 <head>
-    <title>ajar mar kelas fasa 1 </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelas Aiman</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      font-family: Arial, sans-serif;
+      color: #fff;
+      background: linear-gradient(135deg, #2563eb, #7c3aed);
+    }
+
+    .welcome-card {
+      width: min(90%, 620px);
+      padding: 56px 36px;
+      text-align: center;
+      border: 1px solid rgba(255, 255, 255, .35);
+      border-radius: 24px;
+      background: rgba(255, 255, 255, .14);
+      box-shadow: 0 18px 45px rgba(30, 20, 80, .25);
+      backdrop-filter: blur(10px);
+    }
+
+    .welcome-card p {
+      margin: 0 0 12px;
+      font-size: 1.1rem;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.2rem, 7vw, 4.5rem);
+      line-height: 1.1;
+    }
+  </style>
 </head>
 <body>
-    <h1>Hello World!</h1>
+  <main class="welcome-card">
+    <p>Hi Mar</p>
+    <h1>Selamat Datang ke Kelas Aiman</h1>
+  </main>
 </body>
 </html>
